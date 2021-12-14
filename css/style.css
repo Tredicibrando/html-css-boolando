@@ -1,0 +1,74 @@
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #ddd;
+}
+
+main{
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* CARD */
+.card{
+    background-color: violet;
+    display: inline-block;
+    padding: 10px;
+}
+
+.image_size{
+  aspect-ratio: 9/16;
+  background-size: 40%;
+}
+
+
+/* TESTI */
+.testo_brand{
+    font-size: 8px;
+}
+
+.testo_nome_prodotto{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.testo_sconto{
+    color: red;
+    font-size: 10px;
+}
+
+.testo_sconto_barrato{
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+/* BADGE */
+.badge_red{
+    background-color: red;
+
+}
+
+.badge_green{
+    background-color: green;
+}
+
+.badge_white{
+     background-color: white;  /* Hover preferiti */
+}
