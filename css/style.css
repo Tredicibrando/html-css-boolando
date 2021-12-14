@@ -15,12 +15,11 @@ main{
     background-color: white;
     margin: 0 auto;
     width: 90%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 20px 10% 20px 10%;
 }
 
 .container{
-    text-align: ;
+    text-align: center;
 }
 /* CARD */
 .card{
@@ -35,7 +34,11 @@ main{
 }
 
 .image-container img{
-  width: 100%;
+    width: 100%;
+}
+
+.text-container{
+    text-align: left;
 }
 
 /* TESTI */
@@ -118,4 +121,16 @@ main{
     text-align: center;
     padding-top: 5px;
     font-size: 20px;  
+}
+
+.image-container :nth-child(2){
+    display: none;
+}
+
+.image-container:hover :nth-child(2) {
+    display: initial;
+}
+
+.image-container:hover :nth-child(1) {
+    display: none;
 }
