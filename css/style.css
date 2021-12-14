@@ -127,10 +127,10 @@ main{
     display: none;
 }
 
-.image-container:hover :nth-child(2) {
+.image-container:hover :nth-child(2){
     display: initial;
 }
 
-.image-container:hover :nth-child(1) {
+.image-container:hover :nth-child(1){
     display: none;
 }
