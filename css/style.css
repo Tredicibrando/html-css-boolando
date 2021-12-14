@@ -15,20 +15,23 @@ main{
     background-color: white;
     margin: 0 auto;
     width: 90%;
-    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
+.container{
+    text-align: ;
+}
 /* CARD */
 .card{
-    background-color: violet;
     display: inline-block;
     padding: 10px;
-    width: 300px;
-    
+    width: 400px;
 }
 
 .image-container {
     width: 100%;
+    position: relative;
 }
 
 .image-container img{
@@ -37,34 +40,82 @@ main{
 
 /* TESTI */
 .testo_brand{
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .testo_nome_prodotto{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .testo_sconto{
     color: red;
-    font-size: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .testo_sconto_barrato{
-    font-size: 10px;
-    text-decoration: underline;
+    font-size: 14px;
+    text-decoration: line-through;
+    display: inline-block;
 }
 
 /* BADGE */
 .badge_red{
-    background-color: red;
-
+    font-size: 12px;
+    position: absolute;
+    background-color: rgb(235, 32, 76);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    bottom: 25px;
 }
 
 .badge_green{
-    background-color: green;
+    font-size: 12px;
+    position: absolute;
+    background-color: rgb(19, 160, 101);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    left: 40px;
+    bottom: 25px;
+}
+
+.badge_green_eccezione{
+    font-size: 12px;
+    position: absolute;
+    background-color: rgb(19, 160, 101);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    left: 0px;
+    bottom: 25px;
 }
 
 .badge_white{
-     background-color: white;  /* Hover preferiti */
+     background-color: white;
+     width: 35px;
+     height: 35px;
+     position: absolute;
+     right: 0;
+     top: 15px;
+     text-align: center;
+     padding-top: 5px;
+     font-size: 20px;  
+}
+
+/* Hover */
+.badge_white:hover{
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;  
 }
